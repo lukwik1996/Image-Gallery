@@ -1,0 +1,368 @@
+﻿html, body
+{
+    height: 100%;
+}
+
+body
+{
+    background: radial-gradient(#FFFFFF 5%, #333222 150%);
+}
+
+.center
+{
+    text-align: center;
+}
+
+.right
+{
+	float: right;
+}
+
+.left
+{
+	float: left;
+}
+
+p
+{
+    text-align:justify;
+    font-family: "Tahoma";
+    color: maroon;
+    font-weight: bold;
+}
+
+p.info
+{
+	font-weight: normal;
+	color: black;
+}
+
+p.mit
+{
+	font-style: italic;
+}
+
+p.menu
+{
+    font-size: 15pt;
+}
+
+h1
+{
+    font-size: 70pt;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode";
+    color: maroon;    
+    line-height: 0pt;
+}
+
+h1.small
+{
+    font-size: 25pt;
+    text-align: center;
+    line-height: 15pt;
+}
+
+
+h2
+{
+    font-size: 28pt;
+    font-weight: bold;
+    font-family: "Tahoma";
+    color: green;
+}
+
+h3
+{
+    font-size: 26pt;
+    font-weight: bold;
+    font-family: "Tahoma";
+    color: maroon;
+    text-decoration: underline;
+}
+
+img.head_l
+{
+    float: left;
+    height: 120px;
+    width: 160px;
+}
+
+img.head_r
+{
+    float: right;
+    height: 120px;
+    width: 160px;
+}
+
+.link2
+{
+    font-size: 15pt;
+}
+
+.link
+{
+    font-size: 12pt;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 5pt;
+}
+
+a:link
+{
+    color: black;
+}
+
+
+
+a:visited
+{
+    color: black;
+}
+
+.przycisk
+{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.tekst
+{
+    width: 180px;
+    height: 30px;
+    border: 3px double black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#dokument
+{
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    min-height: 100%;
+        height: auto;
+        height: 100%;
+        margin-bottom: -50px;
+    
+}
+
+#naglowek 
+{
+    width:auto;
+    height:150px;
+    border: 3px double black;  
+
+}
+
+#kol_lewa
+{
+    
+    float:left;
+    width:20%;
+    height:auto;
+
+}
+
+#kol_srodk
+{
+    width:60%;
+    height:auto;
+    overflow: auto;
+}
+
+#kol_prawa
+{
+    height: auto;
+    float: right;
+    width: 18%;
+}
+
+#stopka
+        {
+	clear:both; 
+        width: 100%;
+        }
+
+.stopka_tekst
+{
+    font-size: 12pt;
+    font-style: italic;
+}
+
+table
+{
+	text-align: center;
+        font-weight: bold;
+	 float: left;
+    background: lightgrey;
+}
+
+img.table
+{
+	width: 80px;
+	height: 60px;
+	text-align: left;
+}
+
+.hover:hover {
+    width: 320px;
+    height: 240px;
+}
+
+caption
+{
+        color: maroon;
+	font-style: italic;
+	font-weight: bold;
+}
+
+td
+{
+	border: 1px solid black;
+}
+th
+{
+	border: 3px double black;
+	border-collapse: collapse;
+}
+
+form
+{
+    font-family: "Tahoma";
+    font-size:16px;
+    color:maroon;
+}
+
+.galeria_zdj
+{
+	width: 600px;
+	height: 450px;	
+}
+
+.galeria_zdjecia
+{
+	margin-left: 1px;
+	margin-top: 5px;
+	height: 90px;
+	width: 120px;
+	border: 3px solid grey;
+}
+
+.galeria_tab
+{
+	border-style: none;
+}
+
+img.large
+{
+	width: 768px;
+	height: 576px;
+	border: 5px double black;
+	margin-left: 3px;
+}
+    
+    
+#kol_lewa span.expand {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    
+    #dokument, #naglowek, #kol_srodk, #kol_lewa, #stopka {
+        width: auto;
+        margin: 0px;
+    }
+
+    #naglowek {
+	height: auto;
+    }
+
+    
+    #kol_lewa {
+        float: none;
+	border: 1px solid black;
+	border-top: none;
+    }
+
+    #kol_srodk {
+	border: 1px solid black;
+	padding: 3px;
+    }
+
+    #kol_prawa {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	float: none;
+	width: auto;
+    }
+
+    
+    nav {
+        display: none;
+    }
+
+    #kol_lewa span.expand {
+        display: inline-block;
+        float: right;
+        font-weight: normal;
+        font-size: 50px;
+        margin-top: -18px;
+    }
+
+    h2 {
+        margin: 0px;
+	font-size: 25px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    h1.small {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    img.head_l {
+        height: 60px;
+	width: 80px;
+    }
+
+    img.head_r {
+        height: 60px;
+	width: 80px;
+    }
+
+    table {
+	overflow-x: auto;
+	display: block;		
+	}
+
+
+    .link2
+    {
+       font-size: 18pt;
+    }
+
+    .link
+    {
+       font-size: 16pt;
+       font-style: italic;
+       text-decoration: none;
+       line-height: 20pt;
+    }
+
+    th.collapse, td.collapse
+    {
+	visibility: collapse;
+    }
+    
+}    
+    
+
+    
